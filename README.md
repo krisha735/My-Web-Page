@@ -1,5 +1,8 @@
 # 🌸 Welcome to My World  
 
+> 🚀 **My site is live here:**  
+> 👉 [https://krisha735.github.io/My-Web-Page/](https://krisha735.github.io/My-Web-Page/) 👈  
+
 This is a simple **personal fan page** created using **HTML & CSS** as part of my Rapid Assignment.  
 It’s inspired by my love for music, nature and K-pop group StrayKids 💜🌊✨  
 
