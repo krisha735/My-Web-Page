@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My STAY Fan Page</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('skzoo.jpg');
+        background-color: #FFF5EE; /* soft seashell color */
+        color: #333;
+		display: grid;
+		
+    }
+    header {
+        background-color: #FFB6C1; /* softer pink */
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+        border-bottom: 5px solid #FF69B4; /* Soft pink border */
+		border-top: 5px solid #FF69B4; /* Soft pink border */
+    }
+    nav {
+        background-color: #98FB98; /* softer pastel green */
+        color: #fff;
+        padding: 0.5em;
+        text-align: center;
+        height: 60px; /*height for the nav */
+        display: flex;
+        align-items: center; /* Vertically center the links */
+        justify-content: center; /* Center the links horizontally */
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 1em;
+        margin: 0 0.5em;
+        font-weight: bold;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        line-height: 1em; 
+    }
+    nav a:hover {
+        background-color: #fff;
+        color: #98FB98;
+        transition: background-color 0.3s ease;
+    }
+    main {
+        padding: 2em;
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+        border: 5px solid #FFB6C1; /* Soft pink border */
+        border-radius: 15px;
+        margin: 1em;
+    }
+    footer {
+        background-color: #D8BFD8; /* softer pastel lavender */
+        color: #fff;
+        text-align: center;
+		font-weight: bold;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 5px solid #FFB6C1; /* Soft pink border */
+    }
+    h1, h2 {
+        font-weight: 700;
+    }
+    p {
+        font-size: 1.1em;
+    }
+	.gallery {
+  --size: 100px;
+  display: grid;
+  grid-template-columns: repeat(6, var(--size));
+  grid-auto-rows: var(--size);
+  margin-bottom: var(--size);
+  place-items: start center;
+  gap: 5px;
+  
+  &:has(:hover) img:not(:hover),
+  &:has(:focus) img:not(:focus){
+    filter: brightness(0.5) contrast(0.5);
+  }
+
+  & img {
+    object-fit: cover;
+    width: calc(var(--size) * 2);
+    height: calc(var(--size) * 2);
+    clip-path: path("M90,10 C100,0 100,0 110,10 190,90 190,90 190,90 200,100 200,100 190,110 190,110 110,190 110,190 100,200 100,200 90,190 90,190 10,110 10,110 0,100 0,100 10,90Z");
+    transition: clip-path 0.25s, filter 0.75s;
+    grid-column: auto / span 2;
+    border-radius: 5px;
+
+    &:nth-child(5n - 1) { 
+      grid-column: 2 / span 2 
+    }
+
+    &:hover,
+    &:focus {
+      clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
+      z-index: 1;
+      transition: clip-path 0.25s, filter 0.25s;
+    }
+    
+    &:focus {
+      outline: 1px dashed black;
+      outline-offset: -5px;
+    }
+
+</style>
+
+</head>
+<body>
+<header>
+    <h1>Welcome to My Web Page!</h1>
+</header>
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+<main>
+    <h2>Gallery</h2>
+    <p>Some of Minho images and performance for you guys too enjoy ! 🫶</p>
+
+<article class="gallery">
+    <img src="https://i.pinimg.com/736x/2c/99/7d/2c997df9a6d6463e0eed8ea1bbfcf446.jpg" alt="Lee Know Rock Star Era">
+	<img src="https://i.pinimg.com/474x/66/2c/f1/662cf15f9a81207fcb1b0862515c25a9.jpg" alt="Ate Era" >
+	<img src="https://i.pinimg.com/474x/13/da/54/13da5466a2742f2cffdad79a96a2bc7d.jpg" alt="Chk Chk Boom" >
+	<img src="https://i.pinimg.com/474x/29/1c/2e/291c2e80de1385a086ec3f8b30b5d78f.jpg" alt="Chk Chk Boom version-2" >
+	<img src="https://i.pinimg.com/474x/e2/d2/d4/e2d2d4846cfcddd2ae28fed47926a46e.jpg" alt="Mountains" >
+	<img src="https://i.pinimg.com/474x/00/39/6b/00396b1b464fda4debe69e750eada021.jpg" alt="Ate Photoshoot" >
+	<img src="https://i.pinimg.com/736x/cf/41/c1/cf41c1901a088066917ea57a2432bae0.jpg" alt="Charmer Seol">
+	<img src="https://i.pinimg.com/474x/34/fa/af/34faaffedffc2c1177966ea24c91b5af.jpg" alt="Maniac" >
+	<img src="https://i.pinimg.com/736x/97/e2/8c/97e28cd30748b1db29fdf95d2e9bc54e.jpg" alt="Thunderous">
+	<img src="https://i.pinimg.com/736x/44/db/9c/44db9c6746226d18b9b893dd8c29b36c.jpg" alt="Mountains">
+	</article>
+
+	<div class="video-container">
+        <iframe width="560" height="315" src="C:\Users\hezat\OneDrive\KRISHA NANDAKUMAR\OneDrive\A++ 4.0 CGPA 4.0 GPA SEM 6\rapid\Lee Know.mp4" frameborder="6" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+	
+</main>
+</body>
+
+<footer>
+    &copy; 2025 My Personal Fan Page
+</footer>
+
+</html>
