@@ -18,7 +18,7 @@ It’s inspired by my love for music, nature and K-pop group StrayKids 💜🌊�
 - Add CSS animations or JavaScript interactivity  
 
 ## 📂 Project Structure
-│── home.html
+│── index.html
 │── about.html
 │── gallery.html
 │── skzoo
