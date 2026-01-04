@@ -18,14 +18,18 @@ It’s inspired by my love for music, nature and K-pop group StrayKids 💜🌊�
 - Add CSS animations or JavaScript interactivity  
 
 ## 📂 Project Structure
-│── index.html
-│── about.html
-│── gallery.html
-│── skzoo
-│── Lee Know.mp4
-│── skzoo.jpg
-│── stay.jpg
-│── stay1.jpg
-│── stay2.jpg
-│── stay3.jpg
-│── README.md
+
+| Type | Name | Description |
+|------|------|-------------|
+| HTML | `index.html` | Homepage of the website |
+| HTML | `about.html` | About section of the project |
+| HTML | `gallery.html` | Media gallery page |
+| Folder | `skzoo/` | Contains SKZOO-related images and files |
+| Video | `Lee Know.mp4` | Embedded or linked video content |
+| Image | `skzoo.jpg` | Image asset |
+| Image | `stay.jpg` | Image asset |
+| Image | `stay1.jpg` | Image asset |
+| Image | `stay2.jpg` | Image asset |
+| Image | `stay3.jpg` | Image asset |
+| Docs | `README.md` | Project overview and documentation |
+
