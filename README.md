@@ -6,11 +6,15 @@
 This is a simple **personal fan page** created using **HTML & CSS** as part of my Rapid Assignment.  
 It’s inspired by my love for music, nature and K-pop group StrayKids 💜🌊✨  
 
+## 📷 Screenshots
+<img width="1600" height="765" alt="image" src="https://github.com/user-attachments/assets/a5c297ff-0b99-4599-ac33-cc638494aaac" />
+
+
 ## ✨ Features
 - 🎨 Colorful layout with sections (header, navigation, content, footer)  
 - 📌 Navigation bar with Home, About Me, and Gallery  
 - 📝 Personal introduction with emojis  
-- 📷 Space for adding a gallery  
+- 🖼 Space for adding a gallery  
 
 ## 🚀 Future Improvements
 - Make it responsive for mobile  
